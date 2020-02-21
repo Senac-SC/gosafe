@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "gosafe-v0-0-1",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

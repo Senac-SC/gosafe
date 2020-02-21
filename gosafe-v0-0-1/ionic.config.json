@@ -1,0 +1,7 @@
+{
+  "name": "gosafe-v0-0-1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
