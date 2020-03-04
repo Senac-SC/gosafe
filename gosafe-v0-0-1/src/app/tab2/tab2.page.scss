@@ -1,3 +1,12 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+ion-card {
+  border-radius: 10px;
+}
+
+ion-card-content {
+  color: black;
+  font-size: 15px;
+}
