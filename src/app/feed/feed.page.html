@@ -1,0 +1,34 @@
+<ion-content>
+
+  <a id="back" href="#" routerLink="/home">
+    <ion-icon id="back-icon" name="arrow-back-circle-outline"></ion-icon>
+  </a>
+
+  <ion-card id="card">
+    <ion-card-header>
+      <ion-card-title>
+        Anonimo, Joinville SC
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Gente , eu estava andando na região
+      da biblioteca municipal, e um homem
+      encapuzado me abordou, falando
+      coisas obscenas, tentei sair corren..
+    </ion-card-content>
+    <ion-item>
+      <a href="#" (click)="curte()" slot="end"><ion-icon slot="end" id="like" name="heart"></ion-icon></a>
+    </ion-item>
+  </ion-card>
+
+
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="secondary">
+  <ion-card id="input">
+    <ion-input placeholder="Faca sua publicacao"></ion-input>
+  </ion-card>
+  </ion-toolbar>
+</ion-footer>
