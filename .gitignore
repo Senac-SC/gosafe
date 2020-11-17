@@ -29,3 +29,10 @@ npm-debug.log*
 /platforms
 /plugins
 /www
+src/app/home/home.module.ts
+*.ts
+src/app/home/home.module.ts
+src/app/home/home.page.html
+src/app/home/home.module.ts
+src/app/home/home.module.ts
+src/app/home/home.module.ts
