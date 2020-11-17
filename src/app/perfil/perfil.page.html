@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button>
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-menu-button>
+    </ion-buttons>
+    <ion-title>Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <form (ngSubmit)="onFormSubmit(form)" #form="ngForm">
+
+    <ion-item lines="full" id="nome">
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input type="text" ngModel name="nome" required value={{usuario.nome}}></ion-input>
+    </ion-item>
+
+    <ion-item lines="full" id="cpf">
+      <ion-label position="floating">Cpf</ion-label>
+      <ion-input type="text" ngModel name="cpf" required value={{usuario.cpf}}></ion-input>
+    </ion-item>
+
+    <ion-item lines="full" id="idade">
+      <ion-label position="floating">Idade</ion-label>
+      <ion-input type="text" ngModel name="idade" required value={{usuario.idade}}></ion-input>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" size="large" expand="block" id="botao">Editar</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </form>
+</ion-content>
