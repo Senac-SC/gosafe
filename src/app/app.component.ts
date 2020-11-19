@@ -33,6 +33,11 @@ export class AppComponent implements OnInit {
       title: 'Feed',
       url: 'feed',
       icon: 'chatbubble'
+    },
+    {
+      title: 'Home',
+      url: 'home',
+      icon: 'person'
     }
   ]
   constructor(
