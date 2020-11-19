@@ -24,7 +24,11 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
  
+
+
+
 //selected
 .ion-color-selected {
   --ion-color-base        : var(--ion-color-selected);
@@ -34,7 +38,11 @@
   --ion-color-shade       : var(--ion-color-selected-shade);
   --ion-color-tint        : var(--ion-color-selected-tint);
 }
+
  
+
+
+
 //label-color
 .ion-color-label-color {
   --ion-color-base        : var(--ion-color-label-color);
@@ -44,7 +52,11 @@
   --ion-color-shade       : var(--ion-color-label-color-shade);
   --ion-color-tint        : var(--ion-color-label-color-tint);
 }
+
  
+
+
+
 //config-color 
 .ion-color-config-color {
   --ion-color-base        : var(--ion-color-config-color);
@@ -53,7 +65,10 @@
   --ion-color-contrast-rgb: var(--ion-color-config-color-contrast-rgb);
   --ion-color-shade       : var(--ion-color-config-color-shade);
   --ion-color-tint        : var(--ion-color-config-color-tint);
- 
+
+
+
+
   //bg-color      
   .ion-color-bg-color {
     --ion-color-base        : var(--ion-color-bg-color);
@@ -64,7 +79,11 @@
     --ion-color-tint        : var(--ion-color-bg-color-tint);
   }
 }
+
  
+
+
+
 ion-content {
   --background: linear-gradient(360deg, #D7FDFF 0%, #FADDFF 100%), #FADDFF;
 }
