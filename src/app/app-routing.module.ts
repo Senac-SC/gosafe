@@ -38,6 +38,10 @@ const routes: Routes = [
   {
     path: 'local-edit/:id',
     loadChildren: () => import('./local-edit/local-edit.module').then( m => m.LocalEditPageModule)
+  },
+  {
+    path: 'feed',
+    loadChildren: () => import('./feed/feed.module').then( m => m.FeedPageModule)
   }
 
 

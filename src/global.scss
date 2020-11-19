@@ -8,19 +8,63 @@
  * For more information on global stylesheets, visit the documentation:
  * https://ionicframework.com/docs/layout/global-stylesheets
  */
-
+ 
 /* Core CSS required for Ionic components to work properly */
 @import "~@ionic/angular/css/core.css";
-
+ 
 /* Basic CSS for apps built with Ionic */
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
 @import '~@ionic/angular/css/display.css';
-
+ 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
 @import "~@ionic/angular/css/float-elements.css";
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+ 
+//selected
+.ion-color-selected {
+  --ion-color-base        : var(--ion-color-selected);
+  --ion-color-base-rgb    : var(--ion-color-selected-rgb);
+  --ion-color-contrast    : var(--ion-color-selected-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-selected-contrast-rgb);
+  --ion-color-shade       : var(--ion-color-selected-shade);
+  --ion-color-tint        : var(--ion-color-selected-tint);
+}
+ 
+//label-color
+.ion-color-label-color {
+  --ion-color-base        : var(--ion-color-label-color);
+  --ion-color-base-rgb    : var(--ion-color-label-color-rgb);
+  --ion-color-contrast    : var(--ion-color-label-color-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-label-color-contrast-rgb);
+  --ion-color-shade       : var(--ion-color-label-color-shade);
+  --ion-color-tint        : var(--ion-color-label-color-tint);
+}
+ 
+//config-color 
+.ion-color-config-color {
+  --ion-color-base        : var(--ion-color-config-color);
+  --ion-color-base-rgb    : var(--ion-color-config-color-rgb);
+  --ion-color-contrast    : var(--ion-color-config-color-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-config-color-contrast-rgb);
+  --ion-color-shade       : var(--ion-color-config-color-shade);
+  --ion-color-tint        : var(--ion-color-config-color-tint);
+ 
+  //bg-color      
+  .ion-color-bg-color {
+    --ion-color-base        : var(--ion-color-bg-color);
+    --ion-color-base-rgb    : var(--ion-color-bg-color-rgb);
+    --ion-color-contrast    : var(--ion-color-bg-color-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-bg-color-contrast-rgb);
+    --ion-color-shade       : var(--ion-color-bg-color-shade);
+    --ion-color-tint        : var(--ion-color-bg-color-tint);
+  }
+}
+ 
+ion-content {
+  --background: linear-gradient(360deg, #D7FDFF 0%, #FADDFF 100%), #FADDFF;
+}

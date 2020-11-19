@@ -1,10 +1,10 @@
 <ion-content>
 
-  <a id="back" href="#" routerLink="/home">
+  <a id="back" href="#" routerLink="/local">
     <ion-icon id="back-icon" name="arrow-back-circle-outline"></ion-icon>
   </a>
 
-  <ion-card id="card">
+  <ion-card *ngFor="let post of posts" id="card">
     <ion-card-header>
       <ion-card-title>
         Anonimo, Joinville SC
@@ -16,7 +16,7 @@
       encapuzado me abordou, falando
       coisas obscenas, tentei sair corren..
     </ion-card-content>
-    <ion-item>
+    <ion-item lines="none">
       <a href="#" (click)="curte()" slot="end"><ion-icon slot="end" id="like" name="heart"></ion-icon></a>
     </ion-item>
   </ion-card>
@@ -28,7 +28,8 @@
 <ion-footer>
   <ion-toolbar color="secondary">
   <ion-card id="input">
-    <ion-input placeholder="Faca sua publicacao"></ion-input>
+    <ion-textarea style="text-align: center;" placeholder="Faca sua publicacao"></ion-textarea>   
   </ion-card>
+  <ion-button>Envia</ion-button>
   </ion-toolbar>
 </ion-footer>

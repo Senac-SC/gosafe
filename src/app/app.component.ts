@@ -28,6 +28,11 @@ export class AppComponent implements OnInit {
       title: 'Perfil',
       url: 'perfil',
       icon: 'person'
+    },
+    {
+      title: 'Feed',
+      url: 'feed',
+      icon: 'chatbubble'
     }
   ]
   constructor(
